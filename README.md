@@ -1,8 +1,8 @@
 #Front end source code for henserver.com
 
-#This project uses Angular2 with bootstrap, JQuery and D3
+this project uses Angular2 with bootstrap, JQuery and D3
 
-#notes on steps being taken
+#Steps being taken
 
 1. build boilerplate code -
 2. commit to github and add to intelij -
@@ -24,6 +24,10 @@
 11. set up llc change whois addr
 12. SEO
 13. clean up online presence
-14. any cron job ideas 
+14. any cron job ideas
+
+# folders not included in this repository
+node_modules
+
 
 	
