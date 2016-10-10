@@ -1,0 +1,51 @@
+<div class="jumbotron" id="header" [ngClass]="color">
+    <div class="container">
+        <h1>{{ name }}</h1>
+        <p>{{ description }}</p>
+    </div>
+</div>
+<div class="container" id="content">
+    <div id="back" [hidden]="showLinks">
+        <button type="button" class="btn btn-primary"
+                (click)="linkPressed($event, 'back')">Back</button>
+    </div>
+    <div class="row" id="homeRow" [hidden]="!showLinks">
+        <div class="col-md-3" >
+            <div class="button" (click)="linkPressed($event, 'services')"
+                 (mouseover)="setClass($event, 'services')"
+                 (mouseleave)="setClass($event, '')">
+                <i class="fa fa-cogs fa-5x" aria-hidden="true"></i>
+                <a>Services</a>
+            </div>
+        </div>
+        <div class="col-md-3" >
+            <div class="button" (click)="linkPressed($event, 'experience')"
+                 (mouseover)="setClass($event, 'experience')"
+                 (mouseleave)="setClass($event, '')">
+                <i class="fa fa-briefcase fa-5x" aria-hidden="true"></i>
+                <a>Experience</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="button" (click)="linkPressed($event, 'projects')"
+                (mouseover)="setClass($event, 'projects')"
+                (mouseleave)="setClass($event, '')">
+                <i class="fa fa-folder-open fa-5x" aria-hidden="true"></i>
+                <a>Projects</a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="button" (click)="linkPressed($event, 'contact')"
+                 (mouseover)="setClass($event, 'contact')"
+                 (mouseleave)="setClass($event, '')">
+                <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                <a>Contact</a>
+            </div>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>
+<div class="container" id="footer">
+    <a href="/owncloud">owncloud</a>
+    <p>{{ copyright }}</p>
+</div>
