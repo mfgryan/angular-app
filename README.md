@@ -1,9 +1,17 @@
-#Angular front end source code for henserver.com (not used)
+# Angular demo app
 
-this project uses Angular2 with bootstrap, JQuery and D3
+A sample single page web app written with the [Angular](https://angularjs.org/)
 
-# folders not included in this repository
-node_modules
+# Use
+> **`npm install`**
+> and **`npm start`**
 
+## Questions?
 
-	
+  #### Contact
+  - email [henao@henserver.com](http://www.henserver.com)
+  - linkedin [linkedin.com/in/ryan-henao-4173917b](https://www.linkedin.com/in/ryan-henao-4173917b/)
+  - website [henserver](http://www.henserver.com)
+
+  #### Author
+  Ryan Henao
