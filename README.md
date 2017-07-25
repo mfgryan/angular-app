@@ -1,6 +1,6 @@
 # Angular demo app
 
-A sample single page web app written with the [Angular](https://angularjs.org/)
+A sample single page web app written with the [Angular](https://angularjs.org/) framework
 
 # Use
 > **`npm install`**
